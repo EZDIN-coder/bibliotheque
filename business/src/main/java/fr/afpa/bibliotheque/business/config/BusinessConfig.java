@@ -18,7 +18,7 @@ import fr.afpa.bibliotheque.service.config.ServiceConfig;
 
 @Configuration
 @Import(value = {
-ServiceConfig.class
+		ServiceConfig.class
 } )
 @ComponentScan("fr.afpa.bibliotheque.business")
 public class BusinessConfig {
