@@ -10,17 +10,39 @@
 	<artifactId>business</artifactId>
 	<name>Business</name>
 	<description>Business Component module</description>
+	<developers>
+		<developer>
+			<name>Ezdin</name>
+			<organization>AFPA</organization>
+			<email>saadaoui.ezzedineg@gmail.com</email>
+			
+			<roles>
+				<role>Stagiaire</role>
+				<role>Stagiaire Java</role>
+			</roles>
+		</developer>
+	</developers>
 
 
 	<properties>
+	
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<oracle.version>19.7.0.0</oracle.version>
+		<mysql.version>8.0.21</mysql.version>
+		<mainClass>fr.afpa.bibliothque.main</mainClass>
+		<spring.version>4.1.4.RELEASE</spring.version>
 
 	</properties>
 
 	<dependencies>
+
 		<dependency>
 			<groupId>fr.afpa.bibliotheque</groupId>
 			<artifactId>service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
+	
 </project>
